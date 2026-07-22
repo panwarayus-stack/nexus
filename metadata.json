@@ -1,0 +1,6 @@
+{
+  "name": "Nexus Chat",
+  "description": "WhatsApp/Telegram style real-time chat with mentions, formatting, typing indicators, and mobile optimization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

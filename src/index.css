@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+.tg-spoiler {
+  background-color: rgba(51, 65, 85, 0.9);
+  color: transparent;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 0 4px;
+  user-select: none;
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+.tg-spoiler.revealed {
+  background-color: rgba(30, 41, 59, 0.9);
+  color: #f8fafc;
+  text-shadow: none;
+  border: 1px solid rgba(51, 65, 85, 0.8);
+}
+
+[contenteditable]:empty:before {
+  content: attr(data-placeholder);
+  color: #64748b;
+  pointer-events: none;
+  display: block;
+}
